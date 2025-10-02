@@ -1,0 +1,89 @@
+{
+  "name": "Blockchain Bot",
+  "description": "Advanced cryptocurrency bot with referral system, real blockchain simulation, and complete admin panel",
+  "version": "2.0.0",
+  "language": "bjs",
+  "commands": [
+    {
+      "command": "start",
+      "description": "Start the bot and create account"
+    },
+    {
+      "command": "help",
+      "description": "Show all available commands"
+    },
+    {
+      "command": "balance",
+      "description": "Check your balance and wallet address"
+    },
+    {
+      "command": "transactions",
+      "description": "View transaction history"
+    },
+    {
+      "command": "referral",
+      "description": "Referral system and stats"
+    },
+    {
+      "command": "customize_ref",
+      "description": "Customize your referral code"
+    },
+    {
+      "command": "reset_address",
+      "description": "Reset your receive address"
+    },
+    {
+      "command": "send",
+      "description": "Send coins to another address"
+    },
+    {
+      "command": "info",
+      "description": "Network information and rules"
+    },
+    {
+      "command": "admin",
+      "description": "Admin panel (admins only)"
+    }
+  ],
+  "config": {
+    "currency_name": "BlockCoin",
+    "currency_ticker": "BLC",
+    "referral_bonus": 10.0,
+    "network_fee": 0.1,
+    "payment_channel": "@TBlockchainSystem",
+    "admin_ids": [6467811571],
+    "min_withdrawal": 1.0,
+    "max_withdrawal": 1000.0
+  },
+  "features": [
+    "Real blockchain simulation",
+    "Referral system with bonuses",
+    "Customizable referral codes",
+    "Address reset functionality",
+    "Complete admin panel",
+    "User management",
+    "Balance control",
+    "Broadcast messages",
+    "Transaction history",
+    "Fraud detection",
+    "Real-time analytics"
+  ],
+  "dependencies": {
+    "bjs": "latest"
+  },
+  "authors": ["Your Name"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheshanBMR/blockchain-bot.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "referral",
+    "admin",
+    "telegram-bot",
+    "bjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TheshanBMR/blockchain-bot.git"
+}
