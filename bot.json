@@ -1,4 +1,5 @@
 {
+  "bb_sync_version": "1.0",
   "name": "Blockchain Bot",
   "description": "Advanced cryptocurrency bot with referral system, real blockchain simulation, and complete admin panel",
   "version": "2.0.0",
